@@ -21,6 +21,16 @@ plugins:
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
+# 评论：giscus（基于 GitHub Discussions）
+giscus:
+  repo: SolarianZ/SolarianZ.github.io
+  repo_id: R_kgDOIdPqHA
+  category: Announcements
+  category_id: DIC_kwDOIdPqHM4DK5a-
+  mapping: pathname
+  lang: zh-CN
+  theme: preferred_color_scheme
+
 # 构建时排除的文件
 exclude:
   - README.md
