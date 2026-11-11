@@ -1,0 +1,29 @@
+title: SolarianZ 的博客
+description: 技术笔记与一些想法
+author: ZQY
+url: "https://solarianz.github.io"
+baseurl: ""
+github_username: SolarianZ
+
+lang: zh-CN
+timezone: Asia/Shanghai
+
+theme: minima
+show_excerpts: true
+header_pages:
+  - about.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# 构建时排除的文件
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
